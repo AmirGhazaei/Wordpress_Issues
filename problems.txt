@@ -10,3 +10,8 @@
 	2.2: chgrp -R apache wordpress/
 	2.3: chmod u+wrx wordpress/*
 
+3. 404 error after change permalink
+	3.1: int terminal: gksu gedit /etc/apache2/apache2.conf
+	3.2: find <Directory /var/www/>
+	3.3: make sure the AllowOverride directive is set to All
+
