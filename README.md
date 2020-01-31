@@ -1,2 +1,2 @@
-# wordpressIssues
+# Wordpress Issues
 Wordprees Issues
